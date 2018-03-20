@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="进程">
+      <UniqueIdentifier>{cb394664-ad8f-4ab6-bb2f-1e667385e6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPU">
+      <UniqueIdentifier>{a1c78571-7294-4a4b-ae93-90a6c8322180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理">
+      <UniqueIdentifier>{8515ed94-254d-4538-b286-e3ff507a7d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab">
+      <UniqueIdentifier>{175a5c77-0b00-4688-86d9-51fe28b5fe2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杀毒">
+      <UniqueIdentifier>{ed9c5409-581b-4414-87a7-04faa2396614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统服务">
+      <UniqueIdentifier>{cda8b345-280a-4c7d-a126-eeca5c22afa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE">
+      <UniqueIdentifier>{f5afa8d5-85db-4b7b-8f1a-3068c869f68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="小火箭">
+      <UniqueIdentifier>{ce030ddf-cf0c-4f97-b3bb-0546b31f49a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyJingc.h">
+      <Filter>进程</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgModule.h">
+      <Filter>进程</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgThread.h">
+      <Filter>进程</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Diab.h">
+      <Filter>垃圾清理</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTab.h">
+      <Filter>Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaDu.h">
+      <Filter>杀毒</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>系统服务</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>杀毒</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDosDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="PeZhu.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="OptlonalDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="MuluDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivedTabDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="ResouDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="Cdaoru.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="CongDingWeiDlg.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="XiaoHuoJian.h">
+      <Filter>小火箭</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyJingc.cpp">
+      <Filter>进程</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgModule.cpp">
+      <Filter>进程</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgThread.cpp">
+      <Filter>进程</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Diab.cpp">
+      <Filter>垃圾清理</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTab.cpp">
+      <Filter>Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaDu.cpp">
+      <Filter>杀毒</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>系统服务</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
+      <Filter>杀毒</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDosDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="PeZhu.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="OptlonalDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="MuluDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivedTabDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="ResouDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="Cdaoru.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="CongDingWeiDlg.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="XiaoHuoJian.cpp">
+      <Filter>小火箭</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFC.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
